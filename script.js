@@ -9,15 +9,15 @@ console.log("La somme est : " + somme);
 // chapitre 8 
 
 function addition(a, b) {
-    return a + b;
-  }
-  
-  let somme1 = addition(8, 5);
-  console.log("La somme est : " + somme1);
-  
-  //chapitre 9
+  return a + b;
+}
 
-  let age = 20;
+let somme1 = addition(8, 5);
+console.log("La somme est : " + somme1);
+
+//chapitre 9
+
+let age = 20;
 
 if (age < 18) {
   console.log("Vous êtes mineur.");
@@ -27,12 +27,15 @@ if (age < 18) {
   console.log("Vous êtes majeur.");
 }
 
+//chapitre 10
 
 
 for (let i = 1; i <= 10; i++) {
   if (i === 5) continue; // sauter le 5
   console.log("Nombre : " + i);
 }
+
+
 
 
 
