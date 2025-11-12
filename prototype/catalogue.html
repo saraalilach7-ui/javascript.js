@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Catalogue des livres</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+</head>
+<body>
+  <header>
+    <h1>Bibliothèque de l’école</h1>
+    <a href="ajouter-livre.html" class="btn-ajouter">+ Ajouter un livre</a>
+  </header>
+
+  <main>
+    <table id="liste-livres">
+      <thead>
+        <tr>
+          <th>Code</th>
+          <th>Titre</th>
+          <th>Auteur</th>
+          <th>Année</th>
+          <th>Prix (dh)</th>
+          <th>Disponible</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Les livres seront insérés ici via JS -->
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <div class="stats">
+      <div>
+        <h3 id="total">0</h3>
+        <p>Total livres</p>
+      </div>
+      <div>
+        <h3 id="disponibles">0</h3>
+        <p>Disponibles</p>
+      </div>
+      <div>
+        <h3 id="valeur">0 dh</h3>
+        <p>Valeur totale</p>
+      </div>
+      <div>
+        <h3 id="plus-cher">-</h3>
+        <p>Livre le plus cher</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
