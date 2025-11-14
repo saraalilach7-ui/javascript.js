@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ajouter un livre</title>
+  <link rel="stylesheet" href="style2.css">
+  <script src="script2.js" defer></script>
+
+</head>
+<body>
+  <a href="catalogue2.html" class="btn-ajouter">← Retour au catalogue</a>
+  <header>
+    <h1>Ajouter un nouveau livre</h1>
+  <main>
+    <form id="form-livre">
+      <label for="code">Code:</label>
+      <input type="number" id="code" placeholder="Code du livre" required>
+
+      <label for="titre">Titre:</label>
+      <input type="text" id="titre" placeholder="Titre du livre" required>
+      <label for="auteur">Auteur:</label>
+      <input type="text" id="auteur" placeholder="Nom de l'auteur" required>
+
+      <label for="annee">Année:</label>
+      <input type="number" id="annee" placeholder="Année de publication" required>
+
+      <label for="prix">Prix (dh):</label>
+      <input type="number" id="prix" placeholder="Prix du livre" required>
+
+      <label for="disponible">
+        Disponible:
+        <input type="checkbox" id="disponible" checked>
+      </label>
+
+      <button type="submit">Ajouter le livre</button>
+    </form>
+  </main>
+</body>
+</html>
